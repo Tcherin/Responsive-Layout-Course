@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #824936;
+  background-color: #f3eed9;
+  min-height: 660px;
+}
+
+.title {
+  width: 35%;
+  text-align: center;
+}
+
+.subtitle {
+  font-family: "Roboto";
+}
+
+.text-container {
+  padding: 80px;
+}
+
+.text-container > h2 {
+  text-align: center;
+  color: #824936;
+}
+
+.text-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-content > p {
+  width: 40%;
+}
+
+.container-1 {
+  display: flex;
+  justify-content: space-around;
+  background-color: #222c2a;
+  padding: 75px;
+}
+
+.text-portion {
+  width: 35%;
+  color: white;
+}
+
+.container-2 {
+  display: flex;
+  justify-content: space-around;
+  background-color: #824936;
+  padding: 75px;
+}
